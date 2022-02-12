@@ -1,0 +1,14 @@
+#bars {
+  display: flex;
+  height: 15rem;
+  margin-top: 10rem;
+}
+.bar {
+  flex-grow: 1;
+  border: 1px solid black;
+  height: 60%;
+  background-color: blue;
+  margin-left: 1px;
+  transform: rotateX(180deg);
+  transform-origin: top;
+}
